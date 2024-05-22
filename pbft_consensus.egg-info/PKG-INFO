@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: pbft-consensus
+Version: 0.1.0
+Summary: Simplified PBFT prepare/commit vote simulation
+Author: Contributors
+License: MIT
+Keywords: pbft,consensus,byzantine
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Dynamic: license-file
+
+# PBFT Consensus (Simplified)
+
+Toy replica set runs pre-prepare, prepare, and commit phases to agree on a sequence of requests.
